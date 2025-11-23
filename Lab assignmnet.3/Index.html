@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lab_assignment_3.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">MyLogo</div>
+    <nav class="nav">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <h1 class="animated-title">I'm a <span class="color-animate">Full Stack Developer</span></h1>
+      <p>Welcome to my portfolio! Scroll down to know more about me.</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+    <img src="profile.jpg" alt="Profile" class="profile-img">
+  </section>
+  
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate developer skilled in building modern websites and web apps...</p>
+  </section>
+  
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="card">HTML5</div>
+      <div class="card">CSS3</div>
+      <div class="card">JavaScript</div>
+      <div class="card">ReactJS</div>
+      <div class="card">NodeJS</div>
+      <div class="card">Python</div>
+    </div>
+  </section>
+  
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>Responsive design with modern CSS.</p>
+      </div>
+      <div class="card">
+        <h3>E-commerce Store</h3>
+        <p>Fully functional shop with cart and payment integration.</p>
+      </div>
+      <div class="card">
+        <h3>Blog Platform</h3>
+        <p>CMS with Markdown posts and user management.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+  
+  <footer class="footer">
+    <small>© 2025 My Portfolio | Follow me: 
+      <a href="#">LinkedIn</a> 
+      <a href="#">GitHub</a>
+    </small>
+  </footer>
+</body>
+</html>
